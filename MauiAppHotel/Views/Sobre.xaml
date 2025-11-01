@@ -1,0 +1,50 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre">
+
+    <Grid>
+
+        <Label 
+            Text="Bem-vindo ao Hotel Maui!
+
+Oferecemos conforto, lazer e gastronomia de excelência para uma estadia inesquecível.
+
+Nossas suítes premium garantem seu descanso. Desfrute de nossa completa área de lazer, que inclui piscinas e SPA, além de um atendimento caloroso e personalizado.
+
+Sua melhor experiência é aqui."
+            HorizontalTextAlignment="Center"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"   
+            Margin="20, 50, 20, 0"      
+            FontSize="18"
+            TextColor="{DynamicResource Gray100}" />
+
+        <StackLayout 
+            HorizontalOptions="Center" 
+            VerticalOptions="End"     
+            Spacing="5"
+            Margin="0, 0, 0, 30">
+
+            <Label 
+                Text="Desenvolvedor: Gabriel Correa de Souza"
+                HorizontalTextAlignment="Center"
+                FontSize="16"
+                TextColor="{DynamicResource Primary}" />
+
+            <Label 
+                Text="Ano de desenvolvimento: 2025"
+                HorizontalTextAlignment="Center"
+                FontSize="16"
+                TextColor="{DynamicResource Primary}" />
+
+            <Label 
+                Text="Sorocaba - SP"
+                HorizontalTextAlignment="Center"
+                FontSize="16"
+                TextColor="{DynamicResource Primary}" />
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>
